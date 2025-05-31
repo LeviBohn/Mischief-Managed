@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import CharacterList from './components/CharacterList';
 import CharacterDetails from './components/CharacterDetails';
 import HouseSelection from './components/HouseSelection';
+import SpellList from './components/SpellList';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               <Route path="/students" element={<CharacterList type="students" />} />
               <Route path="/staff" element={<CharacterList type="staff" />} />
               <Route path="/character/:id" element={<CharacterDetails />} />
+              <Route path="/spells" element={<SpellList />} />
               <Route path="/house-selection" element={<HouseSelection />} />
             </Routes>
           </main>

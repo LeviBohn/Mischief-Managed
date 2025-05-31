@@ -1,54 +1,78 @@
-# React + TypeScript + Vite
+# Coding Challenge - FrontEnd
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# The Harry Potter Mischief Managed App
 
-Currently, two official plugins are available:
+## Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Use the Harry Potter API to get a list of characters and spells.  
 
-## Expanding the ESLint configuration
+API: [Harry Potter API](https://hp-api.onrender.com/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Requirements
+Language: React, use Typescript if possible
+Styling: Use your preferred approach to styling the app.  
+The app should have a view to display the list of all characters, all students, all staff.
+The user should be able to select a character to go to a details page for the character
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+The app should have a clear way to navigate between views
+A user should be able to favorite characters
+The user should be able to set their preferred house (Gryffindor, Slytherin, Hufflepuff, Ravenclaw)
+The app should make use of colors and fonts that make aesthetic sense
+
+## Time constraint
+Try to keep your development to around 4 hours.  We want to see your work, but we also don't want to take up a ton of your time.  Use judgement on what will help showcase your skills appropriately. 
+If you run out of time, it is okay to not implement all of the requested features in the challenge
+
+## Evaluation Criteria
+Proper usage of React components and props
+Effective handling of state and component lifecycle
+Clean and maintainable code structure
+Proper TypeScript type annotations
+CSS styling and responsiveness
+Implementation of required features and functionality
+
+## How to Submit
+Please make your code public and send a link to the github repository.
+
+## Implementation Details
+
+This project was implemented using:
+- React 18 with TypeScript
+- Vite for build tooling
+- Tailwind CSS for styling
+- React Router for navigation
+- Context API for state management
+
+### Features Implemented
+- ✅ Character listing (all, students, staff)
+- ✅ Character details view
+- ✅ House selection with custom SVG crests
+- ✅ Favorite characters system
+- ✅ Spells catalog with search functionality
+- ✅ Responsive design
+- ✅ Harry Potter themed UI/UX
+- ✅ Local storage for user preferences
+
+### Running the Project
+
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
 ```
+3. Start the development server:
+```bash
+npm run dev
+```
+4. Open http://localhost:5173 in your browser
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+### Project Structure
+```
+src/
+  ├── components/      # React components
+  ├── context/        # Context providers
+  ├── services/       # API services
+  ├── types/          # TypeScript definitions
+  ├── styles/         # CSS and styling
+  └── assets/         # Images and SVGs
 ```

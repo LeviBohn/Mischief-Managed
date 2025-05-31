@@ -1,4 +1,4 @@
-import type { Character } from '../types';
+import type { Character, Spell } from '../types';
 
 const BASE_URL = 'https://hp-api.onrender.com/api';
 
@@ -37,5 +37,13 @@ export const api = {
       throw new Error('Character not found');
     }
     return characters[0];
+  },
+
+  async getSpells(): Promise<Spell[]> {
+    const response = await fetch(`${BASE_URL}/spells`);
+    if (!response.ok) {
+      throw new Error('Failed to fetch spells');
+    }
+    return response.json();
   },
 }; 

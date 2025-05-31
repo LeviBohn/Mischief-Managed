@@ -35,6 +35,12 @@ const Navbar = () => {
               Staff
             </Link>
             <Link
+              to="/spells"
+              className={`nav-link ${isActive('/spells') ? 'text-hogwarts-gold font-semibold' : 'text-hogwarts-light/80 hover:text-hogwarts-light'}`}
+            >
+              Spells
+            </Link>
+            <Link
               to="/house-selection"
               className={`nav-link flex items-center space-x-2 ${
                 isActive('/house-selection') ? 'text-hogwarts-gold font-semibold' : 'text-hogwarts-light/80 hover:text-hogwarts-light'

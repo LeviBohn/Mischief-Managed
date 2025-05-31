@@ -1,5 +1,12 @@
 export type House = 'Gryffindor' | 'Slytherin' | 'Hufflepuff' | 'Ravenclaw';
 
+export interface Spell {
+  id: string;
+  name: string;
+  description: string;
+  type?: string;
+}
+
 export interface Character {
   id: string;
   name: string;
