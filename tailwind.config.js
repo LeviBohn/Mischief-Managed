@@ -23,12 +23,22 @@ export default {
           primary: '#0E1A40',
           secondary: '#946B2D',
         },
+        hogwarts: {
+          dark: '#0C1425',
+          darker: '#060913',
+          blue: '#1C3A6E',
+          gold: '#C4A747',
+          light: '#F0F0F2'
+        }
       },
       fontFamily: {
         harry: ['Cinzel Decorative', 'cursive'],
         spells: ['MedievalSharp', 'cursive'],
         main: ['Inter', 'sans-serif'],
       },
+      backgroundImage: {
+        'hogwarts-night': "url('/hogwarts-silhouette.svg')",
+      }
     },
   },
   plugins: [],
