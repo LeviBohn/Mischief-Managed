@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M100 20 L180 180 H20 Z" fill="#0E1A40"/>
+  <path d="M100 40 L160 160 H40 Z" fill="#946B2D"/>
+  <path d="M70 90 L100 70 L130 90 L100 110 Z" fill="#0E1A40"/>
+  <path d="M85 95 L100 85 L115 95 L100 105 Z" fill="#946B2D"/>
+  <path d="M100 110 L115 130 L100 150 L85 130 Z" fill="#0E1A40"/>
+</svg> 
