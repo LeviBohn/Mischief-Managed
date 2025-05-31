@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M100 20 L180 180 H20 Z" fill="#FFD800"/>
-  <path d="M100 40 L160 160 H40 Z" fill="#000000"/>
-  <circle cx="100" cy="100" r="30" fill="#FFD800"/>
-  <rect x="85" y="85" width="30" height="30" fill="#000000"/>
-  <circle cx="100" cy="100" r="10" fill="#FFD800"/>
+<svg width="300" height="360" viewBox="0 0 300 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Background -->
+  <path d="M150 10C70 10 20 60 20 150C20 240 70 270 150 350C230 270 280 240 280 150C280 60 230 10 150 10Z" fill="#FFD800"/>
+  
+  <!-- Shield Border -->
+  <path d="M150 0C65 0 10 55 10 150C10 245 65 280 150 360C235 280 290 245 290 150C290 55 235 0 150 0ZM150 10C230 10 280 60 280 150C280 240 230 270 150 350C70 270 20 240 20 150C20 60 70 10 150 10Z" fill="#000000"/>
+  
+  <!-- Diagonal Stripes -->
+  <path d="M50 50L250 250" stroke="#000000" stroke-width="20"/>
+  <path d="M250 50L50 250" stroke="#000000" stroke-width="20"/>
+  
+  <!-- Badger -->
+  <path d="M150 100C120 100 95 125 95 155C95 185 120 210 150 210C180 210 205 185 205 155C205 125 180 100 150 100Z" fill="#000000"/>
+  <path d="M150 120C135 120 125 135 125 155C125 175 135 190 150 190C165 190 175 175 175 155C175 135 165 120 150 120Z" fill="#FFD800"/>
+  
+  <!-- Badger Details -->
+  <path d="M140 140C135 140 130 145 130 150C130 155 135 160 140 160C145 160 150 155 150 150C150 145 145 140 140 140Z" fill="#000000"/>
+  <path d="M160 140C155 140 150 145 150 150C150 155 155 160 160 160C165 160 170 155 170 150C170 145 165 140 160 140Z" fill="#000000"/>
+  <path d="M150 165L140 170L150 175L160 170L150 165Z" fill="#000000"/>
+  
+  <!-- Text Banner -->
+  <path d="M50 280H250V320H50V280Z" fill="#000000"/>
+  <text x="150" y="308" fill="#FFD800" font-family="Cinzel Decorative" font-size="24" text-anchor="middle">HUFFLEPUFF</text>
 </svg> 

@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M100 20 L180 180 H20 Z" fill="#0E1A40"/>
-  <path d="M100 40 L160 160 H40 Z" fill="#946B2D"/>
-  <path d="M70 90 L100 70 L130 90 L100 110 Z" fill="#0E1A40"/>
-  <path d="M85 95 L100 85 L115 95 L100 105 Z" fill="#946B2D"/>
-  <path d="M100 110 L115 130 L100 150 L85 130 Z" fill="#0E1A40"/>
+<svg width="300" height="360" viewBox="0 0 300 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Background -->
+  <path d="M150 10C70 10 20 60 20 150C20 240 70 270 150 350C230 270 280 240 280 150C280 60 230 10 150 10Z" fill="#0E1A40"/>
+  
+  <!-- Shield Border -->
+  <path d="M150 0C65 0 10 55 10 150C10 245 65 280 150 360C235 280 290 245 290 150C290 55 235 0 150 0ZM150 10C230 10 280 60 280 150C280 240 230 270 150 350C70 270 20 240 20 150C20 60 70 10 150 10Z" fill="#946B2D"/>
+  
+  <!-- Star -->
+  <path d="M150 40L165 70L195 75L172 97L178 127L150 113L122 127L128 97L105 75L135 70L150 40Z" fill="#946B2D"/>
+  
+  <!-- Eagle -->
+  <path d="M150 90C120 90 95 115 95 145C95 175 120 200 150 200C180 200 205 175 205 145C205 115 180 90 150 90Z" fill="#946B2D"/>
+  <path d="M150 110C135 110 125 125 125 145C125 165 135 180 150 180C165 180 175 165 175 145C175 125 165 110 150 110Z" fill="#0E1A40"/>
+  
+  <!-- Wings -->
+  <path d="M80 120L150 145L220 120L150 170L80 120Z" fill="#946B2D"/>
+  <path d="M90 130L150 150L210 130L150 165L90 130Z" fill="#0E1A40"/>
+  
+  <!-- Text Banner -->
+  <path d="M50 280H250V320H50V280Z" fill="#946B2D"/>
+  <text x="150" y="308" fill="#0E1A40" font-family="Cinzel Decorative" font-size="24" text-anchor="middle">RAVENCLAW</text>
 </svg> 
